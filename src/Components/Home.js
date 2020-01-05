@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Carousel from "./Carousel";
 import InfoBoxes from "./InfoBoxes";
 import News from "./News";
+import Footer from "./Footer";
 
 export default class Home extends Component {
   constructor(props) {
@@ -26,6 +27,7 @@ export default class Home extends Component {
         </div>
         <InfoBoxes />
         <News />
+        <Footer />
       </div>
     );
   }

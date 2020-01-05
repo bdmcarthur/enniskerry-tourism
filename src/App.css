@@ -5,6 +5,14 @@ font-family: 'Karma', serif; */
   font-family: "Source Serif Pro", serif;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
 .special-font {
   font-family: "IM Fell DW Pica SC", serif;
 }
@@ -101,6 +109,23 @@ font-family: 'Karma', serif; */
   height: 150px;
   object-fit: cover;
 }
+/* ///////////////////////////Footer////////////////////////////////// */
+.copyright {
+  background-color: black;
+}
+
+.copyright i {
+  margin: 0 1rem;
+}
+
+.footer-list a {
+  font-size: 1.25rem;
+}
+
+.copyright h4 {
+  text-align: center;
+}
+
 /* ////////////////////Media Queries///////////////////////////// */
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -138,6 +163,16 @@ font-family: 'Karma', serif; */
   .about p {
     font-size: 1.25rem;
     line-height: 2.5rem;
+  }
+
+  /* ///////////////////////////Footer////////////////////////////////// */
+  .copyright i {
+    margin: 0 1rem;
+  }
+
+  .copyright h4 {
+    text-align: left;
+    margin-left: 2rem;
   }
 }
 

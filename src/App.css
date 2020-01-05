@@ -5,8 +5,7 @@ font-family: 'Karma', serif; */
   font-family: "Source Serif Pro", serif;
 }
 
-.navbar-brand,
-.title-text {
+.special-font {
   font-family: "IM Fell DW Pica SC", serif;
 }
 
@@ -82,6 +81,7 @@ font-family: 'Karma', serif; */
 
 .info-container img {
   width: 300px;
+  object-fit: cover;
 }
 
 .info-text {
@@ -91,6 +91,16 @@ font-family: 'Karma', serif; */
   text-shadow: 2px 2px 4px #000000;
 }
 
+/* ///////////////////////////News////////////////////////////////// */
+.news {
+  font-size: 5rem;
+  margin: 5rem 0 2rem 0;
+}
+
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
 /* ////////////////////Media Queries///////////////////////////// */
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {

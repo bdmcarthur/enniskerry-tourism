@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand ml-4" href="#">
           <img src={logo}></img>
         </a>
         <button
@@ -87,8 +87,7 @@ function App() {
         <Switch>
           <Route path="/about"></Route>
           <Route path="/eat"></Route>
-          <Route path="/drink"></Route>
-          <Route path="/shop"></Route>
+          <Route path="/see"></Route>
           <Route path="/stay"></Route>
           <Route path="/">
             <Home />

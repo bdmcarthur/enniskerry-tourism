@@ -1,11 +1,10 @@
 import React from "react";
-import logo from "../images/logo.png";
 
 const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand ml-4" href="/">
-        <img alt="logo" src={logo}></img>
+        <img alt="logo" src="/images/logo.png"></img>
       </a>
       <button
         class="navbar-toggler"

@@ -1,7 +1,4 @@
 import React from "react";
-import background1 from "../images/carousel1.jpg";
-import background2 from "../images/carousel2.jpg";
-import background3 from "../images/carousel3.jpg";
 
 const Carousel = () => {
   return (
@@ -28,21 +25,21 @@ const Carousel = () => {
           <div className="carousel-item active">
             <img
               className="d-block w-100"
-              src={background1}
+              src="images/carousel1.jpg"
               alt="First slide"
             ></img>
           </div>
           <div className="carousel-item">
             <img
               className="d-block w-100"
-              src={background2}
+              src="/images/carousel2.jpg"
               alt="Second slide"
             ></img>
           </div>
           <div className="carousel-item">
             <img
               className="d-block w-100"
-              src={background3}
+              src="/images/carousel3.jpg"
               alt="Third slide"
             ></img>
           </div>

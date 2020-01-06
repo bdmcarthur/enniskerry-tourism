@@ -25,7 +25,7 @@ export default class Home extends Component {
           </p>
         </div>
         <InfoBoxes />
-        <News />
+        <News newsString={this.props.newsString} />
       </div>
     );
   }

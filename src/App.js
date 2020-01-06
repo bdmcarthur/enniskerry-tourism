@@ -1,13 +1,16 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
+import News from "./Components/News";
+import FullStory from "./Components/FullStory";
 import Eat from "./Components/Eat";
 import See from "./Components/See";
 import Stay from "./Components/Stay";
 import Footer from "./Components/Footer";
 import dataString from "./data/travelItems.json";
+import newsString from "./data/news.json";
 
 function App() {
   return (
@@ -24,8 +27,17 @@ function App() {
         <Route path="/stay">
           <Stay dataString={dataString} />
         </Route>
+        <Route exact path="/news">
+          <News newsString={newsString} />
+        </Route>
+
+        <Route
+          path="/news/:id"
+          render={props => <FullStory {...props} newsString={newsString} />}
+        />
+
         <Route path="/">
-          <Home />
+          <Home newsString={newsString} />
         </Route>
       </Switch>
       <Footer />

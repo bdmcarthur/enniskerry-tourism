@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../images/largelogo.png";
 
 const Footer = () => {
   return (
     <div className="bg-dark text-white mt-3">
       <div className=" container row justify-content-around mx-auto py-4">
         <div className="col-12 col-md-3 mt-4">
-          <img alt="logo" className="pt-3 pr-3" src={logo}></img>
+          <img
+            alt="logo"
+            className="pt-3 pr-3"
+            src="/images/largelogo.png"
+          ></img>
         </div>
 
         <div className="col-12 col-md-3 mt-4">

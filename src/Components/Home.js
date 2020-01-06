@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Carousel from "./Carousel";
 import InfoBoxes from "./InfoBoxes";
 import News from "./News";
-import Footer from "./Footer";
 
 export default class Home extends Component {
   constructor(props) {
@@ -14,7 +13,7 @@ export default class Home extends Component {
     return (
       <div className="home">
         <Carousel />
-        <div className="container about mx-auto">
+        <div id="about" className="container about mx-auto">
           <p className="text-center mx-auto">
             Welcome to Ballywole! Widely regarded as one of Ireland’s most
             charming villages, Ballywole is full of history, heritage, and
@@ -27,7 +26,6 @@ export default class Home extends Component {
         </div>
         <InfoBoxes />
         <News />
-        <Footer />
       </div>
     );
   }

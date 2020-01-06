@@ -5,7 +5,7 @@ import logo from "../images/largelogo.png";
 const Footer = () => {
   return (
     <div className="bg-dark text-white mt-3">
-      <div className=" container row justify-content-around mx-auto pt-3">
+      <div className=" container row justify-content-around mx-auto py-4">
         <div className="col-12 col-md-3 mt-4">
           <img alt="logo" className="pt-3 pr-3" src={logo}></img>
         </div>
@@ -21,24 +21,21 @@ const Footer = () => {
         <div className="col-12 col-md-2 mt-4">
           <ul className=" footer-list pl-1 d-none d-sm-block">
             <li>
-              <Link>About</Link>
+              <Link to={"/stay"}>Stay</Link>
             </li>
             <li>
-              <Link>Stay</Link>
+              <Link to={"/eat"}>Eat</Link>
             </li>
             <li>
-              <Link>Eat</Link>
+              <Link to={"/see"}>See</Link>
             </li>
             <li>
-              <Link>See</Link>
-            </li>
-            <li>
-              <Link>News</Link>
+              <Link to={"/news"}>News</Link>
             </li>
           </ul>
         </div>
       </div>
-      <div className="row justify-content-between copyright m-0pt-2">
+      <div className="row justify-content-between copyright m-0 pt-2">
         <div class="col-12 col-md-6 py-2">
           <h4 className="">
             <i class="fa fa-facebook"></i>

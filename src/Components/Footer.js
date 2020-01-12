@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="col-12 col-md-3 mt-4">
           <h4>Come Visit Us!</h4>
           <p>
-            Bollymore Tourist Office<br></br>Emmet Place, Bollywole, Co Cork,
+            Enniskerry Tourist Office<br></br>Emmet Place, Enniskerry, Co Cork,
             P17 C973<br></br>Tel: + 353 21 4298234
           </p>
         </div>
@@ -50,7 +50,7 @@ const Footer = () => {
 
         <div class="col-12 col-md-6 py-1">
           <p className="text-right my-1 pr-4">
-            © 2029 Bollywole Tourism. All rights reserved.
+            © 2029 Enniskerry Tourism. All rights reserved.
           </p>
         </div>
       </div>

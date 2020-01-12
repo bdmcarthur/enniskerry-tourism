@@ -2,83 +2,75 @@
   {
     "id": 1,
     "type": "see",
-    "title": "Glencree Castle",
+    "title": "Glencree",
     "images": "https://source.unsplash.com/1600x900/?castle",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-    "address": "1B Southside Estate Pouladuff Rd., Ballywole, Co. Cork Ireland",
-    "phone": "020 915 9227",
-    "website": "www.GlencreeCastle.com"
+    "description": "Glencree is a stunning valley in the Wicklow Mountains, with Ennniskerry being at the foot of the valley. It is the second closest valley in the mountains to Dublin city, the first being Glencullen. The river Dargle flows down the valley, which rises to a height of abut 400 metres.",
+    "address": "",
+    "phone": "",
+    "website": "http://visitwicklow.ie/item/glencree-visitor-centre"
   },
   {
     "id": 2,
     "type": "see",
-    "title": "Dughaill Cemetary",
+    "title": "Powerscourt Gardens",
     "images": "https://source.unsplash.com/1600x900/?cemetary",
-    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "address": "16 Seagrave Hall Ratoath, Ballywole, Co. Cork Ireland",
-    "phone": "020 915 9227",
-    "website": "www.DughaillCemetary.com"
+    "description": "Powerscourt Gardens first began to take shape over two and a half centuries ago. The charming walled garden, the striking terraces, fine statuary and varied trees are linked by carefully designed walks and set in the magnificent surroundings of the Wicklow mountains.**The gardens are accessible (charges apply) through Powerscourt House which is located just outside Enniskerry village.",
+    "address": "Powerscourt Estate, Enniskerry, Co. Wicklow, Ireland",
+    "phone": ",+353 (0) 1 204 6000",
+    "website": "https://powerscourt.com/plan-your-visit"
   },
   {
     "id": 3,
     "type": "see",
-    "title": "St. Mary's Church",
+    "title": "Powerscourt Waterfall",
     "images": "https://source.unsplash.com/1600x900/?church,old",
-    "description": "Dictum non consectetur a erat nam at lectus urna duis. Non diam phasellus vestibulum lorem sed. Suscipit tellus mauris a diam maecenas sed enim ut. Rutrum quisque non tellus orci ac auctor augue mauris.",
-    "address": "125 Boghall Rd Bray, Ballywole, Co. Cork Ireland",
-    "phone": "020 915 9227",
-    "website": "www.StMarys.com"
+    "description": "This is the highest waterfall in Ireland. Facilities include a refreshment kiosk, toilets, playground – featuring a “space net” – and a nature trail.**Directions: On the outskirts of Enniskerry Village. Travelling south on N11 take exit for Bray/Greystones and follow signs. Travelling North on N11 take turn for Enniskerry and follow signs.",
+    "address": "Powerscourt Estate, Enniskerry, Co. Wicklow, Ireland",
+    "phone": ",+353 (0) 1 204 6000",
+    "website": "https://powerscourt.com/waterfall"
   },
   {
     "id": 4,
     "type": "see",
-    "title": "Hike the Ardgehane Trails",
+    "title": "Wicklow Mountains National Park",
     "images": "https://source.unsplash.com/1600x900/?hike,ireland",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-    "address": "289 Pomeroy Rd, Ballywole, Co. Cork Ireland",
-    "phone": "020 915 9227",
-    "website": "www.ArdgehaneTrails.com"
+    "description": "Situated off the Green Road close to the Upper Lake, and approximately 100m from the Upper Lake Car Park – 2km from Glendalough Visitor Centre. The National Park which covers much of upland Wicklow, contains an area of approximately 20,000 hectares (49,421 acres). This includes large areas of mountain blanket bogs, including the Lugnaquilla and Liffey Head Bog complexes and Glendalough Wood Nature Reserve. The National Park provides protection for the landscape and the wildlife, from rare orchids to the wild and beautiful Peregrine Falcon. Wicklow Mountains National Park runs a wide variety of activities for groups and individuals of all ages. Activities are free of charge and include field trips, nature walks, lectures and workshops.",
+    "address": "Upper Lake, Glendalough, Co. Wicklow, Ireland",
+    "phone": ", +353 (0)404 45425",
+    "website": "https://www.wicklowmountainsnationalpark.ie/"
   },
   {
     "id": 5,
     "type": "eat",
-    "title": "Glencree Tavern",
+    "foodType": "Italian Restaurant, Pizzeria & Wine Bar",
+    "title": "Emilia’s",
     "images": "https://source.unsplash.com/1600x900/?hearty,food",
-    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "address": "3 Brawney Close, Ballywole, Co. Cork Ireland ",
-    "phone": "020 915 9227",
-    "website": "www.GlencreeTavern.com"
+    "description": "Situated in the heart of the village, this first floor restaurant specialises in organic soups as well as thin crust pizzas, steaks and merangue desserts.",
+    "address": "Clock Tower, Enniskerry Village",
+    "phone": ", +353 1 2761834"
   },
   {
     "id": 6,
     "type": "eat",
-    "title": "Dughaill Pub",
+    "foodType": "Diner serving a variety of homemade snacks and drinks",
+    "title": "Kingfishers Kitchen",
     "images": "https://source.unsplash.com/1600x900/?beef",
-    "description": "Sit amet luctus venenatis lectus. Cursus euismod quis viverra nibh. Mi ipsum faucibus vitae aliquet nec. Quis commodo odio aenean sed adipiscing diam donec adipiscing. ",
-    "address": "16 Seagrave Hall Ratoath, Ballywole, Co. Cork Ireland",
-    "phone": "020 915 9227",
-    "website": "www.DughaillPub.com"
+    "description": "Situated opposite the Enniskerry monument with outdoor seating on the terrace, The Kingfishers Kitchen looks to source produce locally, and that includes the Avoca blankets with which customers can wrap-up warm in the Winter sunshiine. This well-situated sunny premises offers a wide selection of Panninis as well as gourmet open sandwiches and freshly-ground Italian coffee.",
+    "address": "Fountainview, Main Street, Enniskerry",
+    "phone": ", +353 1 2764859"
   },
   {
     "id": 7,
     "type": "eat",
-    "title": "Mary's",
+    "foodType": "Tasty & wholesome country cooking",
+    "title": "Poppies",
     "images": "https://source.unsplash.com/1600x900/?cook",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-    "address": "125 Boghall Rd Bray, Ballywole, Co. Cork Ireland",
-    "phone": "020 915 9227",
-    "website": "www.Marys.com"
+    "description": "Poppies Café opened in Enniskerry in 1982 and since then has become a favourite destination for those who love tasty and wholesome coutnry cooking. It is committed to maintaining the environment by using wind-generated electricty and recyling all of its cans, bottles and packaging. A takeaway menu is also available for those who’d rather enjoy a meal than prepare one. It’s ideal for the busy host looking to serve excellent quality, delicious and wholesome food with the minimum amount of effort.",
+    "address": "The Square, Enniskerry Village",
+    "phone": ", +353 1 2828869",
+    "website": "www.poppies.ie"
   },
-  {
-    "id": 8,
-    "type": "eat",
-    "title": "Ardgehane House",
-    "images": "https://source.unsplash.com/1600x900/?stew",
-    "description": "Dictum non consectetur a erat nam at lectus urna duis. Non diam phasellus vestibulum lorem sed. Suscipit tellus mauris a diam maecenas sed enim ut. Rutrum quisque non tellus orci ac auctor augue mauris.",
-    "address": "16 Glasilawn Ave, Ballywole, Co. Cork Ireland ",
-    "phone": "020 915 9227",
-    "website": "www.ArdgehaneHouse.com"
-  },
+
   {
     "id": 9,
     "type": "stay",
@@ -110,7 +102,7 @@
     "website": "www.MarysHotel.com"
   },
   {
-    "id": 1,
+    "id": 12,
     "type": "stay",
     "title": "Ardgehane Inn",
     "images": "https://source.unsplash.com/1600x900/?cottage",

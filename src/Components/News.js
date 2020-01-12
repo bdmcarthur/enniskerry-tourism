@@ -2,7 +2,7 @@ import React from "react";
 
 const News = props => {
   let newsList = props.newsString;
-  console.log(newsList);
+
   return (
     <div className="container">
       <h1 id="news" className="special-font news text-center">

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const InfoBoxes = () => {
   return (
-    <div className="container info-container">
+    <div className="container mt-5 pt-5" id="activities">
       <div className="row">
         <Link className="col-md-4 col-12 info-box mt-3" to="/see">
           <div className="hovereffect">

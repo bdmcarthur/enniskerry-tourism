@@ -44,6 +44,7 @@ a {
 
 .title-description {
   font-size: 1rem;
+  text-shadow: 3px 2px 2px black, 1px 2px 1em #00000a, 4px 2px 0.2em #000002;
 }
 
 /* ///////////////////////About/////////////////////////////// */

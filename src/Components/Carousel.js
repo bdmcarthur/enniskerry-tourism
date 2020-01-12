@@ -4,17 +4,19 @@ const Carousel = () => {
   return (
     <div>
       <div className="title-container centered-text-overlay text-center mx-auto">
-        <h1 className="title-text special-font">Ballywole</h1>
+        <h1 className="title-text special-font">Enniskerry</h1>
         <p className="title-description font-italic text-center mb-5">
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-          officia deserunt mollit anim.
+          Located just 30 minutes south of Dublin City, Enniskerry is the
+          gateway to Wicklow, The Garden of Ireland. Widely regarded as one of
+          Ireland’s most charming villages, Enniskerry is a wonderful place to
+          visit, live and work in.
         </p>
-        <button
-          type="button"
-          className="d-block mx-auto title-btn btn btn-light btn-lg"
+        <a
+          className="mx-auto title-btn btn btn-light btn-lg"
+          href="#activities"
         >
           Explore
-        </button>
+        </a>
       </div>
       <div
         id="carouselExampleControls"

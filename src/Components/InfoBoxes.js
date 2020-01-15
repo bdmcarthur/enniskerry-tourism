@@ -9,7 +9,7 @@ const InfoBoxes = () => {
           <div className="hovereffect">
             <img
               className="img-responsive w-100 h-100"
-              src="/images/see.jpg"
+              src="/images/glencree.jpg"
               alt=""
             ></img>
             <div className="centered-text-overlay info-text">To See</div>

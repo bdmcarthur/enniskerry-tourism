@@ -11,14 +11,16 @@ const InfoCards = props => {
           {filteredList.map(item => (
             <div className="row mt-5 pt-4 justify-content-center">
               <div className="col-sm col-md-5 m-auto">
-                <img className="w-100 mb-4" alt="food" src={item.images}></img>
+                <img
+                  className="w-100 mb-4"
+                  alt="food"
+                  src={`/images/${item.images}`}
+                ></img>
               </div>
               <div className="col-sm col-md-6 description">
                 <h3>{item.title}</h3>
                 {item.tagline && (
-                  <p className="font-weight-bold font-italic">
-                    {item.tagline}
-                  </p>
+                  <p className="font-weight-bold font-italic">{item.tagline}</p>
                 )}
                 <p>
                   {item.description.split("**").map(par => (
@@ -29,11 +31,9 @@ const InfoCards = props => {
                   {item.address} {item.phone}
                 </p>
 
-                
-                  <a target="blank" href={item.website}>
-                    Visit Website
-                  </a>
-                
+                <a target="blank" href={item.website}>
+                  Visit Website
+                </a>
               </div>
             </div>
           ))}

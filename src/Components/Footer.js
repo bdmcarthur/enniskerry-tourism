@@ -8,12 +8,12 @@ const Footer = () => {
         <div className="col-12 col-md-3 mt-4">
           <img
             alt="logo"
-            className="pt-3 pr-3"
-            src="/images/largelogo.png"
+            className="pt-3 pr-3 w-100"
+            src="/images/logo.png"
           ></img>
         </div>
 
-        <div className="col-12 col-md-3 mt-4">
+        <div className="col-12 col-md-4 mt-4">
           <h4>Come Visit Us!</h4>
           <p>
             Enniskerry Tourist Office<br></br>Emmet Place, Enniskerry, Co Cork,

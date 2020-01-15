@@ -6,7 +6,6 @@ import Home from "./Components/Home";
 import News from "./Components/News";
 import InfoCards from "./Components/InfoCards";
 import FullStory from "./Components/FullStory";
-import Hotel from "./Components/Hotel";
 import Footer from "./Components/Footer";
 import dataString from "./data/travelItems.json";
 import newsString from "./data/news.json";
@@ -31,20 +30,15 @@ function App() {
           exact
           render={props => <InfoCards {...props} dataString={dataString} />}
         />
-        <Route
-          path="/stay/:id"
-          render={props => <Hotel {...props} dataString={dataString} />}
-        />
 
-        {/* <Route exact path="/news">
+        <Route exact path="/news">
           <News newsString={newsString} />
         </Route>
 
         <Route
           path="/news/:id"
           render={props => <FullStory {...props} newsString={newsString} />}
-        /> */}
-
+        />
         <Route path="/">
           <Home newsString={newsString} />
         </Route>

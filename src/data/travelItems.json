@@ -42,27 +42,29 @@
   {
     "id": 5,
     "type": "eat",
-    "foodType": "Italian Restaurant, Pizzeria & Wine Bar",
+    "tagline": "Italian Restaurant, Pizzeria & Wine Bar",
     "title": "Emilia’s",
     "images": "https://source.unsplash.com/1600x900/?hearty,food",
     "description": "Situated in the heart of the village, this first floor restaurant specialises in organic soups as well as thin crust pizzas, steaks and merangue desserts.",
     "address": "Clock Tower, Enniskerry Village",
-    "phone": ", +353 1 2761834"
+    "phone": ", +353 1 2761834",
+    "website": ""
   },
   {
     "id": 6,
     "type": "eat",
-    "foodType": "Diner serving a variety of homemade snacks and drinks",
+    "tagline": "Diner serving a variety of homemade snacks and drinks",
     "title": "Kingfishers Kitchen",
     "images": "https://source.unsplash.com/1600x900/?beef",
     "description": "Situated opposite the Enniskerry monument with outdoor seating on the terrace, The Kingfishers Kitchen looks to source produce locally, and that includes the Avoca blankets with which customers can wrap-up warm in the Winter sunshiine. This well-situated sunny premises offers a wide selection of Panninis as well as gourmet open sandwiches and freshly-ground Italian coffee.",
     "address": "Fountainview, Main Street, Enniskerry",
-    "phone": ", +353 1 2764859"
+    "phone": ", +353 1 2764859",
+    "website": ""
   },
   {
     "id": 7,
     "type": "eat",
-    "foodType": "Tasty & wholesome country cooking",
+    "tagline": "Tasty & wholesome country cooking",
     "title": "Poppies",
     "images": "https://source.unsplash.com/1600x900/?cook",
     "description": "Poppies Café opened in Enniskerry in 1982 and since then has become a favourite destination for those who love tasty and wholesome coutnry cooking. It is committed to maintaining the environment by using wind-generated electricty and recyling all of its cans, bottles and packaging. A takeaway menu is also available for those who’d rather enjoy a meal than prepare one. It’s ideal for the busy host looking to serve excellent quality, delicious and wholesome food with the minimum amount of effort.",
@@ -74,41 +76,45 @@
   {
     "id": 9,
     "type": "stay",
-    "title": "Glencree Hostel",
+    "title": "Ballyorney Farm B&B",
     "images": "https://source.unsplash.com/1600x900/?manor,ireland",
-    "description": "Sit amet luctus venenatis lectus. Cursus euismod quis viverra nibh. Mi ipsum faucibus vitae aliquet nec. Quis commodo odio aenean sed adipiscing diam donec adipiscing. ",
-    "address": "8 Eden Quay, Ballywole, Co. Cork Ireland",
-    "phone": "020 915 9227",
-    "website": "www.GlencreeHostel.com"
+    "tagline": "5 star bed and breakfast in a beautiful house located on a picturesque and scenic farm 5 mins drive from Enniskerry Village",
+    "description": "Our lovely house is on a farm, 5 mins from Enniskerry, Powerscourt and the Wicklow Way. We are 30 mins from both Glendalough and Dublin, and 40 minutes from the airport. We have 4 spacious bedrooms, each with a double bed and own bath",
+    "address": "Ballyorney, Enniskerry, Co. Wicklow.",
+    "phone": "+353 87 275 5873",
+    "website": "https://www.airbnb.ie/s/homes"
   },
   {
     "id": 10,
     "type": "stay",
-    "title": "Dughaill Hotel",
+    "title": "Brook Cottage",
     "images": "https://source.unsplash.com/1600x900/?hotel,old",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-    "address": "16 Seagrave Hall Ratoath, Ballywole, Co. Cork Ireland",
-    "phone": "020 915 9227",
-    "website": "www.DughaillHotel.com"
+    "tagline": "Bed & Breakfast in a peaceful & panoramic setting 3km from Enniskerry",
+    "description": "Set near the picturesque village of Enniskerry, Brook Cottage is the perfect place for a relaxing get-away. Our quiet guesthouse is located approximately one hour from Dublin city and near to a host of wonderful places to visit and things to do. Many of our guests are taking a break from the spectacular Wicklow Way to visit Powerscourt Estate or other local sights.",
+    "address": "Annacrivy, Enniskerry, Co. Wicklow",
+    "phone": "+353 1 2766039",
+    "website": "www.enniskerry.org"
   },
   {
     "id": 11,
     "type": "stay",
-    "title": "St. Mary's Hotel",
+    "title": "Coolakay House",
     "images": "https://source.unsplash.com/1600x900/?inn, english",
-    "description": "Dictum non consectetur a erat nam at lectus urna duis. Non diam phasellus vestibulum lorem sed. Suscipit tellus mauris a diam maecenas sed enim ut. Rutrum quisque non tellus orci ac auctor augue mauris.",
-    "address": "125 Boghall Rd Bray, Ballywole, Co. Cork Ireland",
-    "phone": "020 915 9227",
-    "website": "www.MarysHotel.com"
+    "tagline": "3 star farmhouse accommodation & heritage centre within 3km of Enniskerry village. Trip Advisor 2013 Certificate of Excellence & B&B Ireland’s Best Leinster B&B 2012.",
+    "description": "Our B&B is a 19th Century Farmhouse located in the beautiful area of Enniskerry Co. Wicklow. Our latest addition to the house is our conservatory where guests can relax and enjoy the surroundings. We are a family friendly business with a high chair and cot available on request. It should also be noted that all of our bedrooms are Non-Smoking. Our facilities are Bord Failte Approved. **On the farm we have a large sheep population, beef cattle and a Farm Museum showing some of the finest examples of what was once used on a farm long ago on display daily.",
+    "address": "Powerscourt Waterfall Road, Coolakay, Enniskerry",
+    "phone": "+353 1 2862423",
+    "website": "http://www.coolakayhouse.ie/"
   },
   {
     "id": 12,
     "type": "stay",
-    "title": "Ardgehane Inn",
+    "title": "Ferndale B&B",
     "images": "https://source.unsplash.com/1600x900/?cottage",
-    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "address": "4 Rathcoole S.C., Ballywole, Co. Cork Ireland",
-    "phone": "020 915 9227",
-    "website": "www.Ardgehane Inn.com"
+    "tagline": "Listed Victorian building furnished in period style. All rooms en-suite.",
+    "description": "Our aim is to provide a warm Irish welcome with quality food and service in pleasant surroundings. We have an extensive breakfast menu (from an Irish cooked breakfast to scrambled eggs and smoked salmon to home made bread and jams). We can offer you assistance with planning local and national itineraries. Ferndale is the perfect base to combine ease of access to Dublin and the scenic and cultural attractions of county Wicklow – Houses and Gardens, Historical sites etc. There a number of restaurants and pubs within walking distance of Ferndale providing evening and other meals etc.",
+    "address": "Enniskerry Village, Enniskerry",
+    "phone": "+353 1 2863518",
+    "website": "http://www.ferndalehouse.com/"
   }
 ]

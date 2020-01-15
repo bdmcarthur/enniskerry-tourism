@@ -1,8 +1,9 @@
 import React from "react";
 
 const InfoCards = props => {
-  let id = props.match.path.split("/").join("");
-  let filteredList = props.dataString.filter(item => item.type === id);
+  let page = props.match.path.split("/").join("");
+  let filteredList = props.dataString.filter(item => item.type === page);
+
   return (
     <div className="container mb-5 pb-5">
       {filteredList && (
@@ -14,9 +15,9 @@ const InfoCards = props => {
               </div>
               <div className="col-sm col-md-6 description">
                 <h3>{item.title}</h3>
-                {item.foodType && (
+                {item.tagline && (
                   <p className="font-weight-bold font-italic">
-                    {item.foodType}
+                    {item.tagline}
                   </p>
                 )}
                 <p>
@@ -27,11 +28,12 @@ const InfoCards = props => {
                 <p className="font-italic">
                   {item.address} {item.phone}
                 </p>
-                {item.website && (
+
+                
                   <a target="blank" href={item.website}>
-                    See Website
+                    Visit Website
                   </a>
-                )}
+                
               </div>
             </div>
           ))}

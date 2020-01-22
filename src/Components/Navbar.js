@@ -49,9 +49,14 @@ const Navbar = () => {
             </a>
           </div>
         </li> */}
+        <li class="nav-item">
+            <a class="nav-link " href="/about">
+              About<span class="sr-only">(current)</span>
+            </a>
+          </li>
           <li class="nav-item">
             <a class="nav-link " href="/stay">
-              Stay<span class="sr-only">(current)</span>
+              Stay<span class="sr-only"></span>
             </a>
           </li>
           <li class="nav-item">

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ScrollToTop from "./Components/ScrollToTop";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
+import About from "./Components/About";
 import News from "./Components/News";
 import InfoCards from "./Components/InfoCards";
 import FullStory from "./Components/FullStory";
@@ -17,6 +18,11 @@ function App() {
       <ScrollToTop />
       <Navbar />
       <Switch>
+      <Route
+          path="/about"
+          exact
+          render={props => <About {...props} dataString={dataString} />}
+        />
         <Route
           path="/eat"
           exact

@@ -13,9 +13,9 @@ export default class Home extends Component {
     return (
       <div className="home">
         <Carousel />
-        <div className="py-5 my-5 text-center container">
+        <div className="pt-5 text-center container">
           <div className="row justify-content-center">
-            <div className="col-md-8 text-center">
+            <div className="col-md-8 text-left">
               <p className="lead p-5">
                 Enniskerry offers a wonderful combination of peaceful village
                 atmosphere and close proximity to Dublin city centre. It is well
@@ -26,7 +26,7 @@ export default class Home extends Component {
                 is Bray, about 10 minutes by bus or car.
               </p>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 p-0 info-box">
               <img
                 alt="wood"
                 className="w-100 h-100"
@@ -40,14 +40,12 @@ export default class Home extends Component {
               </a>
             </div>
           </div>
-        </div>
-        <div className="row justify-content-center py-5">
-          <div className="col-md-10 text-center">
-            <h1 className="special-font my-4">Get a glimpse of Enniskerry</h1>
+          <div className="col-md-12 text-center pt-4 video-container">
+            <h1 className="special-font mt-4">Get a glimpse of Enniskerry</h1>
             <ReactPlayer
               url="https://vimeo.com/46682194"
               width="100%"
-              height="550px"
+              height="100%"
             />
           </div>
         </div>

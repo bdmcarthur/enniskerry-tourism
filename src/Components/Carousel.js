@@ -11,10 +11,7 @@ const Carousel = () => {
           Ireland’s most charming villages, Enniskerry is a wonderful place to
           visit, live and work in.
         </p>
-        <a
-          className="mx-auto title-btn btn btn-light btn-lg"
-          href="#activities"
-        >
+        <a className="mx-auto title-btn btn btn-light btn-lg" href="#about">
           Explore
         </a>
       </div>

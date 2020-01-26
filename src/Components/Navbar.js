@@ -24,53 +24,53 @@ const Navbar = () => {
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          {/* <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            About
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">
-              Stay
-            </a>
-            <a class="dropdown-item" href="#">
-              Another action
-            </a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">
-              Something else here
-            </a>
-          </div>
-        </li> */}
-        <li class="nav-item">
-            <a class="nav-link " href="/about">
+          <li class="nav-item mx-1">
+            <a class="nav-link text-white" href="/about">
               About<span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link " href="/stay">
+          <li class="nav-item mx-1 dropdown">
+            <a
+              class="nav-link dropdown-toggle text-white"
+              href="/"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              To Do
+            </a>
+            <div
+              class="dropdown-menu bg-dark border-0"
+              aria-labelledby="navbarDropdown"
+            >
+              <a class="dropdown-item text-white" href="/see">
+                See
+              </a>
+              <a class="dropdown-item text-white " href="/shop">
+                Shop
+              </a>
+              <a class="dropdown-item text-white " href="/health">
+                Health and Beauty
+              </a>
+              <a class="dropdown-item text-white " href="/outdoor">
+                Outdoors
+              </a>
+            </div>
+          </li>
+          <li class="nav-item mx-1">
+            <a class="nav-link text-white " href="/stay">
               Stay<span class="sr-only"></span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link " href="/eat">
+          <li class="nav-item mx-1">
+            <a class="nav-link text-white " href="/eat">
               Eat
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link " href="/see">
-              See
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="/news">
+          <li class="nav-item mx-1">
+            <a class="nav-link text-white " href="/news">
               News
             </a>
           </li>

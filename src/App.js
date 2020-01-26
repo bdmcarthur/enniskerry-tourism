@@ -18,7 +18,7 @@ function App() {
       <ScrollToTop />
       <Navbar />
       <Switch>
-      <Route
+        <Route
           path="/about"
           exact
           render={props => <About {...props} dataString={dataString} />}
@@ -38,7 +38,21 @@ function App() {
           exact
           render={props => <InfoCards {...props} dataString={dataString} />}
         />
-
+        <Route
+          path="/shop"
+          exact
+          render={props => <InfoCards {...props} dataString={dataString} />}
+        />
+        <Route
+          path="/health"
+          exact
+          render={props => <InfoCards {...props} dataString={dataString} />}
+        />
+        <Route
+          path="/outdoor"
+          exact
+          render={props => <InfoCards {...props} dataString={dataString} />}
+        />
         <Route exact path="/news">
           <News newsString={newsString} />
         </Route>

@@ -30,10 +30,15 @@ const InfoCards = props => {
                 <p className="font-italic">
                   {item.address} {item.phone}
                 </p>
-
-                <a target="blank" href={item.website}>
-                  Visit Website
-                </a>
+                {item.website && (
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={item.website}
+                  >
+                    Visit Website
+                  </a>
+                )}
               </div>
             </div>
           ))}

@@ -70,7 +70,7 @@
     "description": "Poppies Café opened in Enniskerry in 1982 and since then has become a favourite destination for those who love tasty and wholesome coutnry cooking. It is committed to maintaining the environment by using wind-generated electricty and recyling all of its cans, bottles and packaging. A takeaway menu is also available for those who’d rather enjoy a meal than prepare one. It’s ideal for the busy host looking to serve excellent quality, delicious and wholesome food with the minimum amount of effort.",
     "address": "The Square, Enniskerry Village",
     "phone": ", +353 1 2828869",
-    "website": "www.poppies.ie"
+    "website": "https://www.poppies.ie"
   },
 
   {
@@ -93,7 +93,7 @@
     "description": "Set near the picturesque village of Enniskerry, Brook Cottage is the perfect place for a relaxing get-away. Our quiet guesthouse is located approximately one hour from Dublin city and near to a host of wonderful places to visit and things to do. Many of our guests are taking a break from the spectacular Wicklow Way to visit Powerscourt Estate or other local sights.",
     "address": "Annacrivy, Enniskerry, Co. Wicklow",
     "phone": "+353 1 2766039",
-    "website": "www.enniskerry.org"
+    "website": "https://www.enniskerry.org"
   },
   {
     "id": 11,
@@ -116,5 +116,101 @@
     "address": "Enniskerry Village, Enniskerry",
     "phone": "+353 1 2863518",
     "website": "http://www.ferndalehouse.com/"
+  },
+  {
+    "id": 13,
+    "type": "shop",
+    "title": "The Parting Glass",
+    "images": "shop13.jpg",
+    "tagline": "Not just another wine shop, we want you to enjoy wine as much as we do!",
+    "description": "Whether you are looking for one bottle or a couple of cases, you’ll find something to tantalize your palate on our shelves. We can give you recommendations for match food to wine. We have over 350 wines in stock and wines from all over the globe. Wine is something to be enjoyed. The job of anyone working in the Wine trade is to demystify wine and sell it with passion and a smile – hopefully we manage both!",
+    "address": "Church Hill, Enniskerry",
+    "phone": "+353 1 2767876",
+    "website": "http://www.thepartingglass.ie/"
+  },
+  {
+    "id": 14,
+    "type": "shop",
+    "title": "Magees Pharmacy",
+    "images": "shop14.jpg",
+    "tagline": "",
+    "description": "Pharmacy with a wide range of health and beauty products and gifts. Photo services also available.",
+    "address": "Main Street, Enniskerry",
+    "phone": "+353 1 2863515",
+    "hours": "Mon – Sat 9am – 6pm.",
+    "website": ""
+  },
+
+  {
+    "id": 16,
+    "type": "health",
+    "title": "The Beauty Studio",
+    "images": "health16.jpg",
+    "tagline": "Professional Make Up Artist & Beauty Therapist",
+    "description": "The Beauty Studio – Sinéad O’Connor is located just outside Enniskerry Village.  As a former Student of Bronwyn Conroy School of Beauty and LA Make Up Academy I have created The Studio which has everything to offer from a treatment room and make up artist studio within tranquil surroundings. Dermalogica & Eve Taylor are the ranges of skincare products used to create a luxury relaxing experience within The Beauty Studio. ",
+    "address": "14 Monastery Cottages, Enniskerry",
+    "phone": "+353 86 3831003",
+    "hours": "Mon – Sat 9am – 6pm.",
+    "website": "https://www.thebeautystudio.eu/"
+  },
+  {
+    "id": 15,
+    "type": "health",
+    "title": "Enniskerry Barbers",
+    "images": "health15.jpg",
+    "tagline": "",
+    "description": "Friendly men’s barber. Also caters for children.",
+    "address": "Main Street, Enniskerry",
+    "phone": "+353 87 719 7687",
+    "hours": "Tue – Sat 10am – 6pm, Thur until 7pm.",
+    "website": ""
+  },
+  {
+    "id": 17,
+    "type": "health",
+    "title": "Enniskerry Physiotherapy Clinic",
+    "images": "health17.jpg",
+    "tagline": "Physiotherapy Clinic, Massage, Pilates & Yoga Studio",
+    "description": "For excellence in diagnosis and prognosis. Our highly qualified team offer the latest treatments and techniques to meet our clients needs. For a full listing of all specialisms and services, biographies of practitioners and class timetables please visit our website” ",
+    "address": "The Medical Centre, Enniskerry Village",
+    "phone": "+353 86 3831003",
+    "hours": "Mon – Sat 9am – 6pm.",
+    "website": "http://www.ephysio.ie/"
+  },
+  {
+    "id": 18,
+    "type": "outdoor",
+    "title": "Dun Laoghaire Golf Club",
+    "images": "outdoors18.jpg",
+    "tagline": "27-hole Hawtree designed championship golf course.  Clubhouse has stunning panoramic views, spacious locker, dining and bar facilities and meeting rooms.",
+    "description": "Dun Laoghaire Golf Club’s 27-hole championship course has been designed by Hawtree to allow different combinations of the three nine-hole courses to be played. The magnificent 5-star Clubhouse which incorporates a spectacular terrace with stunning panoramic views of the Wicklow Mountains has spacious locker, dining and bar facilities, meeting rooms and offices and is perfectly equipped to cater for any function.",
+    "address": "Ballyman Road Enniskerry",
+    "phone": "+353 86 3831003",
+    "hours": "",
+    "website": "https://www.dunlaoghairegolfclub.ie/"
+  },
+  {
+    "id": 19,
+    "type": "outdoor",
+    "title": "Killegar Stables ",
+    "images": "outdoors19.jpg",
+    "tagline": "",
+    "description": "One of Ireland’s longest established horse riding schools in Dublin along with livery yards, Killegar offers riding lessons in Dublin, guided treks, pony camp and livery services. Our first class facilities take full advantage of our prime countryside location on the outskirts of Dublin, just outside the popular tourist village of Enniskerry.",
+    "address": "Killegar Road, The Scalp, Enniskerry",
+    "phone": "+353 86 3831003",
+    "hours": "",
+    "website": "https://www.dunlaoghairegolfclub.ie"
+  },
+  {
+    "id": 20,
+    "type": "outdoor",
+    "title": "Angling For All Trout Fishery",
+    "images": "outdoors20.jpg",
+    "tagline": "County Wicklow offers wonderful opportunities for both the sea and game angler. ",
+    "description": "Wild Brown Trout are plentiful in the rivers and streams that flow off the Wicklow mountain’s, with Sea Trout (subject to local bye laws) available in season. Bass and Smooth Hound are the key species for the sea angler to target when shore fishing, with Tope plentiful off venues such as Greystones, Wicklow town, and Arklow, during the summer months. Through the winter from November onwards Blessington Lake in west Wicklow can deliver superb Pike fishing, with many double figure fish caught annually.",
+    "address": "Aughrim & Macreddin",
+    "phone": "+353 (0)402 36552",
+    "hours": "",
+    "website": "http://www.anirishanglersworld.com/"
   }
 ]

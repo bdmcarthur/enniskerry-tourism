@@ -13,7 +13,7 @@ export default class Home extends Component {
     return (
       <div className="home">
         <Carousel />
-        <div className="pt-5 text-center container">
+        <div className="pt-5 text-center container" id="about">
           <div className="row justify-content-center">
             <div className="col-md-8 text-left">
               <p className="lead p-5">
